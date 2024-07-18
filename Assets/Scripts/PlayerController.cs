@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     private int speed = 20;
     private int rotationSpeed = 60;
-    private int force = 7
+    private int force = 7;
 
     private bool onIsland;
 
@@ -30,6 +30,13 @@ public class PlayerController : MonoBehaviour
             onIsland = false;
         }
 
-        private void
+        private void OnCollisionEnter(Collision collision)
+        {
+           if(collision.gameObject.CompareTag("Island"))
+            {
+                onIsland = true;
+            }
+
+        }
     }
 }
