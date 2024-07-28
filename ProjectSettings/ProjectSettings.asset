@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: d45a515e2c1ec41439992aa8be7de049
+  productGUID: 83723040c6577df4389b2d9dc5fcc92b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -754,10 +754,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 7bac5c8b-f383-4db9-b365-e2bf7dd0f347
+  cloudProjectId: 99f933da-3f8d-4ca4-951b-cf936602da56
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Collector 2024-07-16_19-10-17
+  projectName: Collector
   organizationId: minecraft8941
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
