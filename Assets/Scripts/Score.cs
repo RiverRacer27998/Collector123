@@ -11,7 +11,7 @@ public class Score : MonoBehaviour
     void Start()
     {
         count = 0;
-        ScoreText.text = "Coins: " + count.ToString();
+        ScoreText.text = "Score: " + count.ToString();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -19,7 +19,7 @@ public class Score : MonoBehaviour
         if (collision.gameObject.CompareTag("Coin"))
         {
             count++;
-            ScoreText.text = "Coins: " + count.ToString();
+            ScoreText.text = "Score: " + count.ToString();
             Destroy(collision.gameObject);
         }
     }
