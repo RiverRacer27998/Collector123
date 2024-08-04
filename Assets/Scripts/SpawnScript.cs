@@ -16,6 +16,6 @@ public class SpawnScript : MonoBehaviour
             Instantiate(enemy, position, Quaternion.identity);
         }
     }
-
+}   
+    
   
-}
