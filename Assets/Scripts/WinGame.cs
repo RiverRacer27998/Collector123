@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameOver : MonoBehaviour
+public class WinGame : MonoBehaviour
 {
-    public GameObject GameOverScreen;
+    public GameObject WinScreen;
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Lava"))
+        if (collision.gameObject.CompareTag("Teleport"))
         {
             Debug.Log("Game Over");
-            GameOverScreen.SetActive(true);
+            WinScreen.SetActive(true);
         }
-    }                  
+    }
 }
